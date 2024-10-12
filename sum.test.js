@@ -3,7 +3,7 @@ const { sum } = require('./sum');
 
 
 describe('sum function', () => {
-    test('Cộng hai số có cùng độ dài', () => {
+    test('Cộng hai số', () => {
         expect(sum("1234", "897")).toBe("2131");
     });
 
